@@ -1,0 +1,18 @@
+❯ system_profiler SPHardwareDataType
+Hardware Overview:
+  Model Name: MacBook Pro
+  Model Identifier: MacBookPro18,3
+  Model Number: MKGQ3FN/A
+  Chip: Apple M1 Pro
+  Total Number of Cores: 10 (8 performance and 2 efficiency)
+  Memory: 16 GB
+  System Firmware Version: 10151.121.1
+  OS Loader Version: 10151.121.1
+  Activation Lock Status: Disabled
+
+❯ sysctl -a | grep machdep.cpu
+machdep.cpu.cores_per_package: 10
+machdep.cpu.core_count: 10
+machdep.cpu.logical_per_package: 10
+machdep.cpu.thread_count: 10
+machdep.cpu.brand_string: Apple M1 Pro

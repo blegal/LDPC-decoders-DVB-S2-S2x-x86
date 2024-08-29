@@ -1,0 +1,50 @@
+Architecture :                              x86_64
+  Mode(s) opératoire(s) des processeurs :   32-bit, 64-bit
+  Address sizes:                            46 bits physical, 48 bits virtual
+  Boutisme :                                Little Endian
+Processeur(s) :                             12
+  Liste de processeur(s) en ligne :         0-11
+Identifiant constructeur :                  GenuineIntel
+  Nom de modèle :                           12th Gen Intel(R) Core(TM) i7-12700T
+    Famille de processeur :                 6
+    Modèle :                                151
+    Thread(s) par cœur :                    1
+    Cœur(s) par socket :                    12
+    Socket(s) :                             1
+    Révision :                              2
+    CPU(s) scaling MHz:                     26%
+    Vitesse maximale du processeur en MHz : 4700,0000
+    Vitesse minimale du processeur en MHz : 800,0000
+    BogoMIPS :                              2764,80
+    Drapaux :                               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp 
+                                            lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl 
+                                            vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowpref
+                                            etch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpc
+                                            id rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect avx_vnni dtherm ida arat pln pts hwp hwp_notif
+                                            y hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq tme rdpid movdiri movdir64b fsrm md_clear serialize pcon
+                                            fig arch_lbr ibt flush_l1d arch_capabilities
+Virtualization features:                    
+  Virtualisation :                          VT-x
+Caches (sum of all):                        
+  L1d:                                      512 KiB (12 instances)
+  L1i:                                      512 KiB (12 instances)
+  L2:                                       12 MiB (9 instances)
+  L3:                                       25 MiB (1 instance)
+NUMA:                                       
+  Nœud(s) NUMA :                            1
+  Nœud NUMA 0 de processeur(s) :            0-11
+Vulnerabilities:                            
+  Gather data sampling:                     Not affected
+  Itlb multihit:                            Not affected
+  L1tf:                                     Not affected
+  Mds:                                      Not affected
+  Meltdown:                                 Not affected
+  Mmio stale data:                          Not affected
+  Retbleed:                                 Not affected
+  Spec rstack overflow:                     Not affected
+  Spec store bypass:                        Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:                               Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:                               Mitigation; Enhanced / Automatic IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence
+  Srbds:                                    Not affected
+  Tsx async abort:                          Not affected
+
